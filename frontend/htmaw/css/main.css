@@ -1,5 +1,8 @@
-a {
-  text-decoration: none;
+/******************
+General
+******************/
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #wrapper {
@@ -8,7 +11,94 @@ a {
   padding: 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+/******************
+HEADING
+******************/
 #logo {
   text-align: center;
   margin: 0;
+}
+
+h1 {
+  font-family: 'Bubblegum Sans', cursive;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/******************
+NAVIGATION
+******************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+/******************
+FOOTER
+******************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+/******************
+COLOR
+******************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #7fe67f;
+  border-color: #00dc00;
+}
+
+/* nav background for mobile */
+nav {
+  background: #00dc00;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* link color */
+a {
+  color: #00dc00;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #ff8d8d;
 }
