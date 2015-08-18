@@ -136,6 +136,32 @@ PAGE ABOUT
 
 
 /******************
+PAGE CONTACT
+******************/
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+}
+.contact li.mail a {
+  background-image: url('../image/mail.png');
+}
+
+.contact li.twitter a {
+  background-image: url('../image/twitter.png');
+}
+
+
+
+/******************
 COLOR
 ******************/
 
